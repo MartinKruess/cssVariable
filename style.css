@@ -1,0 +1,39 @@
+@import url(./madia.css);
+
+:root {
+  --primaryColor: red;
+  --seconaryColor: yellow;
+  --highlight: blue;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ccc6;
+  font-size: 1.3rem;
+}
+
+a {
+  color: var(--seconaryColor);
+}
+
+a:hover {
+  color: var(--highlight);
+}
+
+/* Main */
+
+main {
+  background-color: var(--primaryColor);
+  color: var(--seconaryColor);
+  width: 80%;
+  margin: auto;
+
+  p {
+    color: var(--highlight);
+  }
+}
